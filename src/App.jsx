@@ -7,6 +7,10 @@ import Users from "./components/Users"
 import Comments from "./components/Comments"
 
 const router = createBrowserRouter([
+  {
+    path:"/",
+    element: <h1>Home</h1>
+  },
 
   { 
     path:"/Posts",
